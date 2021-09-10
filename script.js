@@ -76,36 +76,36 @@ function draw() {
   }
 
 
-  if (y1 === 720) {
+  if (y1  > 720) {
     speedY1 = speedY1 * -1;
   }
   
-  if (y1 === 0) {
+  if (y1 < 0) {
     speedY1 = speedY1 * -1; 
   }
 
-  if (x1 === 0) { 
+  if (x1 < 0) { 
     speedX1 = speedX1 * -1; 
   }
 
-  if (x1 === 1280) {
+  if (x1 > 1280) {
     speedX1 = speedX1 * -1;
   }
 
 
-  if (y2 === 720) {
+  if (y2 > 720) {
     speedY2 = speedY2 * -1;
   }
   
-  if (y2 === 0) {
+  if (y2 < 0) {
     speedY2 = speedY2 * -1; 
   }
 
-  if (x2 === 0) { 
+  if (x2 < 0) { 
     speedX2 = speedX2 * -1; 
   }
 
-  if (x2 === 1280) {
+  if (x2 > 1280) {
     speedX2 = speedX2 * -1;
   }
 }
